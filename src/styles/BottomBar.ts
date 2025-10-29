@@ -1,5 +1,7 @@
 import { StyleSheet } from "react-native";
 
+const BAR_HEIGHT = 64;
+
 const styles = StyleSheet.create({
   wrap: {
     position: "absolute",
@@ -9,17 +11,15 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     borderTopWidth: 1,
     borderTopColor: "#eceff4",
-    paddingTop: 3,
   },
   bar: {
+    height: BAR_HEIGHT,
     flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "flex-end",
+    paddingTop: 3,
   },
-  item: {
-    width: "17%",
-    alignItems: "center",
-  },
+  item: { width: "17%", alignItems: "center" },
   itemInner: {
     alignItems: "center",
     justifyContent: "center",
