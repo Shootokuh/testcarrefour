@@ -44,8 +44,9 @@ export const styles = StyleSheet.create({
     marginTop: -6,
     marginLeft: 2,
     color: "#ce0f69",
-    fontSize: 12,
-    fontWeight: "600",
+    fontSize: 18,
+    fontWeight: "700",
+    fontFamily: "AmaticSC_700Bold",
   },
   right: {
     alignItems: "center",
@@ -57,8 +58,9 @@ export const styles = StyleSheet.create({
   region: {
     color: "#c20016",
     fontWeight: "700",
-    fontSize: 12,
+    fontSize: 18,
     textAlign: "center",
     marginTop: -6,
+    fontFamily: "AmaticSC_700Bold",
   },
 });
